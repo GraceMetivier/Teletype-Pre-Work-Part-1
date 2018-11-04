@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>HTML/CSS Prototype</title>
     <link rel="stylesheet" href="CSS/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Puritan:400,400i,700" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -13,6 +14,25 @@
 
     <!-- Your code goes here -->
 
+	<div class="container2">
+			<legend><b> $167 </b> still needed for this project </legend>
+			<progress id="progressBar" value="70" max="100"></progress>
+
+		<div id="middle">
+			<br>
+			<p><span class="redText"> Only 3 days left</span> to fund this project.</p> <br>
+			<p>Join the <span class ="num" > <b> 42 </b> </span> other donors who have already supported this project. Every dollar helps.</p>
+
+
+			<form> 
+				<!-- I rarely use Id's but the text box won't listen to my css if it's being used with these classes, I have to assign them id's -->
+				<input id="amount" type="text" placeholder="$ 50"> <button id="give">Give Now</button> </form>
+			
+			<p id="blue"><i>why give $50? </i> </p>
+		</div>
+		<button class="bottom"> Save for later</button>
+		<button class="bottom"> Tell your Friends</button>
+	</div>
 
 
   </body>
